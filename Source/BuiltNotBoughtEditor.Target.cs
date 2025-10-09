@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class GameMechanicsProtoEditorTarget : TargetRules
+public class BuiltNotBoughtEditorTarget : TargetRules
 {
-	public GameMechanicsProtoEditorTarget(TargetInfo Target) : base(Target)
+	public BuiltNotBoughtEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "GameMechanicsProto" } );
+		ExtraModuleNames.AddRange( new string[] { "BuiltNotBought" } );
 	}
 }

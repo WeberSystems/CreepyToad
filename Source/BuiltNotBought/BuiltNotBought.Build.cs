@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class GameMechanicsProto : ModuleRules
+public class BuiltNotBought : ModuleRules
 {
-	public GameMechanicsProto(ReadOnlyTargetRules Target) : base(Target)
+	public BuiltNotBought(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

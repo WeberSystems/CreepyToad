@@ -5,9 +5,12 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "GameMechanicsProto",
+			"Name": "BuiltNotBought",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -60,7 +63,7 @@
 		},
 		{
 			"Name": "StateManagementSystem",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "\"com.epicgames.launcher://ue/Fab/product/a2103b5b-3712-4cb9-9f14- 248562966240"
 		},
 		{
